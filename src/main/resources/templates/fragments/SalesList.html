@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'index')}">
-
 <body>
 <div class="container">
-    　　<form action="#" th:action="@{/employeeList}" method="post">
+    　　<form action="#" th:action="@{/SalesList}" method="post">
     　　  <p>従業員コード：<input name="usercd" type="text"/></p> <!--placeholder="従業員コード"-->
     　　  <p>従業員名　　：<input name="username" type="text" /></p><!--placeholder="従業員名"-->
          <p><input type="submit" value="照合"/></p>
