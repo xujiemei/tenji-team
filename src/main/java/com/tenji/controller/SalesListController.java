@@ -37,7 +37,7 @@ public class SalesListController {
     public ModelAndView findEmployees(@ModelAttribute Sales sales ){
         System.out.println("Start123list...");
 
-        List<Sales> emLst = salesListService.findEmployeeList(sales);
+        List<Employee> emLst = salesListService.findEmployeeList(sales);
         ModelAndView mv=new ModelAndView();
         //model.addAttribute("records", emLst);
         mv.addObject("records",emLst);
