@@ -17,7 +17,7 @@ import java.util.Map;
 public class SalesListController {
     @RequestMapping(path = "/salesList")
     public String salesList(){
-        return"SalesList";
+        return"salesList";
     }
 
 
